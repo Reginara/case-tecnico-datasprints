@@ -1,7 +1,8 @@
 export interface User {
-  username: string
-  avatarUrl: string
-  nome: string
+  id?: number
+  login: string
+  avatar_url: string
+  name: string
   email: string
   cidade: string
   formacao: string

@@ -1,0 +1,34 @@
+{
+  "user": [
+    {
+      "login": "Reginara",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74442885?v=4",
+      "name": "Reginara Gomes",
+      "email": "refagomes@gmail.com",
+      "cidade": "Belo Horizonte",
+      "formacao": "Desenvolvimento Web Fullstack",
+      "tecnologias": "HTML, CSS, JavaScript, Angular",
+      "id": 1
+    },
+    {
+      "login": "MariaSilva",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72254705?v=4",
+      "name": "Maria Silva",
+      "email": "mariasilva@gmail.com",
+      "cidade": "Contagem",
+      "formacao": "Desenvolvimento Web Fullstack",
+      "tecnologias": "HTML, CSS, JavaScript, React",
+      "id": 2
+    },
+    {
+      "login": "Reginara",
+      "avatar_url": "reginara",
+      "name": "Reginara de Fatima Gomes de Castro Mares",
+      "email": "daregigourmet@gmail.com",
+      "cidade": "Belo Horizonte",
+      "formacao": "",
+      "tecnologias": "",
+      "id": 3
+    }
+  ]
+}

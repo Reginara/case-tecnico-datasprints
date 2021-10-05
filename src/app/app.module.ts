@@ -14,16 +14,16 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
 import { HomepageComponent } from './views/homepage/homepage.component';
-import { CreateUserComponent } from './views/create-user/create-user.component';
 import { AboutComponent } from './views/about/about.component';
-import { RegistrationFormComponent } from './components/registration/registration-form/registration-form.component';
+import { ReadUserComponent } from './components/registration/read-user/read-user.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 import { HttpClientModule } from '@angular/common/http';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { CreateUserFormModule } from './views/create-user/create-user-form.module';
 
 @NgModule({
   declarations: [
@@ -32,9 +32,8 @@ import { MatInputModule } from '@angular/material/input';
     FooterComponent,
     NavComponent,
     HomepageComponent,
-    CreateUserComponent,
     AboutComponent,
-    RegistrationFormComponent
+    ReadUserComponent
   ],
   imports: [
     BrowserModule,
@@ -49,7 +48,9 @@ import { MatInputModule } from '@angular/material/input';
     HttpClientModule,
     FormsModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    // ReactiveFormsModule,
+    CreateUserFormModule
   ],
   providers: [],
   bootstrap: [AppComponent]
