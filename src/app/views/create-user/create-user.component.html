@@ -3,6 +3,39 @@
     Cadastro Facilitado
   </mat-card-title>
   <mat-card-subtitle class="subtitle">
-    Clique no botão abaixo e faça o seu cadastro de forma prática e rápida.
+    Informe seu nome de usuário no GitHub para sincronizar os dados.
   </mat-card-subtitle>
 </mat-card>
+
+<mat-card class="user-form">
+  <mat-card-title>Novo Cadastro</mat-card-title>
+  <hr>
+  <form>
+    <mat-form-field> Usuário GitHub
+      <input matInput [(ngModel)]="user.username" name="username">
+    </mat-form-field>
+    <mat-form-field> Avatar Url
+      <input matInput [(ngModel)]="user.avatarUrl" name="avatar">
+    </mat-form-field>
+    <mat-form-field> Nome
+      <input matInput [(ngModel)]="user.nome" name="nome">
+    </mat-form-field>
+    <mat-form-field> Email
+      <input matInput [(ngModel)]="user.email" name="email">
+    </mat-form-field>
+    <mat-form-field> Cidade
+      <input matInput [(ngModel)]="user.cidade" name="cidade">
+    </mat-form-field>
+    <hr>
+    <h3>PROFISSIONAL</h3>
+    <mat-form-field> Formação
+      <input matInput [(ngModel)]="user.formacao" name="formacao">
+    </mat-form-field>
+    <mat-form-field> Tecnologias
+      <input matInput placeholder="ex. HTML, CSS, JavaScript, Angular" [(ngModel)]="user.tecnologias" name="tecnologias">
+    </mat-form-field>
+  </form>
+</mat-card>
+
+<button mat-raised-button (click)="createUser()" color="primary">Cadastrar</button>
+  <button mat-raised-button (click)="backToHome()">Voltar</button>

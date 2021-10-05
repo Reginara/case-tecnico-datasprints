@@ -5,5 +5,15 @@
 }
 
 .homepage .subtitle {
-  font-size: 0.8rem;
+  font-size: 1rem;
+  color: #530b0b;
+}
+
+.button-user-creator{
+  margin-top: 40px;
+  color: #990a0a;
+  border: solid 2px #990a0a;
+  background-color: #fff;
+  border-radius: 10px;
+  height: 40px;
 }

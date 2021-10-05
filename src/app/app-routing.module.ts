@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomepageComponent } from './views/homepage/homepage.component';
 import { AboutComponent } from './views/about/about.component';
 import { CreateUserComponent } from './views/create-user/create-user.component';
+
 const routes: Routes = [
   {
     path: "",

@@ -7,3 +7,27 @@
 .homepage .subtitle {
   font-size: 0.8rem;
 }
+
+.origem {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 17rem;
+}
+
+.text {
+text-align: justify;
+}
+
+.container {
+  margin-right: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}

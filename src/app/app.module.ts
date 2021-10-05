@@ -16,6 +16,14 @@ import { MatListModule } from '@angular/material/list';
 import { HomepageComponent } from './views/homepage/homepage.component';
 import { CreateUserComponent } from './views/create-user/create-user.component';
 import { AboutComponent } from './views/about/about.component';
+import { RegistrationFormComponent } from './components/registration/registration-form/registration-form.component';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -25,7 +33,8 @@ import { AboutComponent } from './views/about/about.component';
     NavComponent,
     HomepageComponent,
     CreateUserComponent,
-    AboutComponent
+    AboutComponent,
+    RegistrationFormComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +43,13 @@ import { AboutComponent } from './views/about/about.component';
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule,
+    MatSnackBarModule,
+    HttpClientModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
