@@ -14,6 +14,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
 import { HomepageComponent } from './views/homepage/homepage.component';
+import { CreateUserComponent } from './views/create-user/create-user.component';
+import { AboutComponent } from './views/about/about.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { HomepageComponent } from './views/homepage/homepage.component';
     HeaderComponent,
     FooterComponent,
     NavComponent,
-    HomepageComponent
+    HomepageComponent,
+    CreateUserComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

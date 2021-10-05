@@ -10,13 +10,13 @@
         <i class="material-icons">group</i>
         Sobre
       </a>
-      <a  mat-list-item routerLink="/registrationForm">
+      <a  mat-list-item routerLink="/createUser">
         <i class="material-icons">account_box</i>
         Cadastro
       </a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content class="content">
-    <app-homepage></app-homepage>
+    <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>
