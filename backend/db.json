@@ -3,7 +3,7 @@
     {
       "login": "Reginara",
       "avatar_url": "https://avatars.githubusercontent.com/u/74442885?v=4",
-      "name": "Reginara Gomes",
+      "name": "Reginara",
       "email": "refagomes@gmail.com",
       "cidade": "Belo Horizonte",
       "formacao": "Desenvolvimento Web Fullstack",
@@ -11,24 +11,34 @@
       "id": 1
     },
     {
-      "login": "MariaSilva",
-      "avatar_url": "https://avatars.githubusercontent.com/u/72254705?v=4",
-      "name": "Maria Silva",
-      "email": "mariasilva@gmail.com",
-      "cidade": "Contagem",
-      "formacao": "Desenvolvimento Web Fullstack",
+      "login": "technoweenie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21?v=4",
+      "name": "Paulo Andrade",
+      "email": "nome@gmail.com",
+      "cidade": "São Paulo",
+      "formacao": "Ciência da Computação",
       "tecnologias": "HTML, CSS, JavaScript, React",
       "id": 2
     },
     {
-      "login": "Reginara",
-      "avatar_url": "reginara",
-      "name": "Reginara de Fatima Gomes de Castro Mares",
-      "email": "daregigourmet@gmail.com",
-      "cidade": "Belo Horizonte",
-      "formacao": "",
-      "tecnologias": "",
+      "login": "mojodna",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45?v=4",
+      "name": "nome",
+      "email": "nome@gmail.com",
+      "cidade": "Curitiba",
+      "formacao": "Ensino médio",
+      "tecnologias": "HTML, CSS, JavaScript, Angular",
       "id": 3
+    },
+    {
+      "login": "JoaoSilva",
+      "avatar_url": "www.www.www",
+      "name": "hkjhjk",
+      "email": "hkjhkjhj",
+      "cidade": "khkjhkj",
+      "formacao": "hkjhkh",
+      "tecnologias": "",
+      "id": 4
     }
   ]
 }

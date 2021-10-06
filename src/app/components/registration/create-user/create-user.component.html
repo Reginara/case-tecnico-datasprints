@@ -10,7 +10,6 @@
 <mat-card class="user-form">
   <mat-card-title>Novo Cadastro</mat-card-title>
   <hr>
-  <!-- [formGroup]="form" (ngSubmit)="onSubmit()" -->
   <form>
     <mat-form-field> Usuário GitHub
       <input matInput [(ngModel)]="user.login" name="login">
@@ -35,8 +34,7 @@
     <mat-form-field> Tecnologias
       <input matInput placeholder="ex. HTML, CSS, JavaScript, Angular"  [(ngModel)]="user.tecnologias" name="tecnologias">
     </mat-form-field>
-    <button mat-raised-button (click)="createUser()" color="primary">Cadastrar</button>
-    <button mat-raised-button>Voltar</button>
-    <!-- <app-form-debug [form]=form></app-form-debug> -->
   </form>
+  <button class="btn-send" mat-raised-button (click)="createUser()" color="primary">Cadastrar</button>
+  <button class="btn-back" mat-raised-button (click)="backToHome()">Voltar</button>
 </mat-card>

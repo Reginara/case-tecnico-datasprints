@@ -1,0 +1,49 @@
+.grid-container {
+  margin: 20px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.dashboard-card {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  background-color: rgb(43, 38, 38);
+  color: white;
+  border-radius: 8px;
+}
+
+.dashboard-card-content {
+  text-align: center;
+}
+
+.img-avatar {
+  max-width: 150px;
+  border-radius: 50%;
+  float: inline-start;
+  padding-top: -50px;
+}
+
+.link-to{
+  display: inline-flex;
+  align-items: center;
+  bottom: 2px;
+}
+
+.edit {
+  color: #d9cd26;
+  margin-left: 120px;
+}
+
+.delete {
+  color: #e35e6b;
+}
+
+@media only screen and (max-device-width: 900px) {
+  body {
+    width: 100%;
+  }
+
+}

@@ -1,12 +1,11 @@
-<mat-toolbar class="header mat-elevation-z4">
+<mat-toolbar-row class="header mat-elevation-z4">
   <span>
     <a routerLink="/">
       <img src="https://i2.wp.com/www.datasprints.com/wp-content/uploads/2021/04/Logo-DataSprints-1.png" alt="logo datasprints" class="logo">
     </a>
   </span>
-  <span class="title-group">
-    <a>
-      Cadastro de Pessoas Desenvolvedoras
-    </a>
-  </span>
-</mat-toolbar>
+  <button mat-button routerLink="/">Home</button>
+  <button mat-button routerLink="/createUser">Cadastro</button>
+  <button mat-button routerLink="/about">Sobre</button>
+</mat-toolbar-row>
+<router-outlet></router-outlet>

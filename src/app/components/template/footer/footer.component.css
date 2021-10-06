@@ -1,14 +1,19 @@
 .footer {
-  position: fixed;
-  bottom: 0;
-  display: flex;
+  position: relative;
   justify-content: flex-end;
   background-color: #0a0a0a;
   color: aliceblue;
+  bottom: 0;
   height: 30px;
 }
 
 .footer > span {
   font-size: 0.8rem;
   font-weight: 300;
+}
+
+@media only screen and (max-device-width: 900px) {
+  body {
+    width: 100%;
+  }
 }

@@ -3,7 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { HomepageComponent } from './views/homepage/homepage.component';
 import { AboutComponent } from './views/about/about.component';
-import { CreateUserComponent } from './views/create-user/create-user.component';
+import { CreateUserComponent } from './components/registration/create-user/create-user.component';
+import { UserUpdateComponent } from './components/registration/user-update/user-update.component';
 
 const routes: Routes = [
   {
@@ -17,11 +18,15 @@ const routes: Routes = [
   {
     path: "createUser",
     component: CreateUserComponent
+  },
+  {
+    path: "userUpdate/:id",
+    component: UserUpdateComponent
   }
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+exports: [RouterModule]
 })
 export class AppRoutingModule { }

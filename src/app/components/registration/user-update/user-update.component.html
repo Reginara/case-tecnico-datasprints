@@ -1,0 +1,31 @@
+<mat-card class="user-form">
+  <mat-card-title>Editar Cadastro</mat-card-title>
+  <hr>
+  <form>
+    <mat-form-field> Usuário GitHub
+      <input matInput [(ngModel)]="user.login" name="login">
+    </mat-form-field>
+    <mat-form-field> Avatar Url
+      <input matInput [(ngModel)]="user.avatar_url" name="avatar">
+    </mat-form-field>
+    <mat-form-field> Nome
+      <input matInput [(ngModel)]="user.name" name="name">
+    </mat-form-field>
+    <mat-form-field> Email
+      <input matInput [(ngModel)]="user.email" name="email">
+    </mat-form-field>
+    <mat-form-field> Cidade
+      <input matInput [(ngModel)]="user.cidade" name="cidade">
+    </mat-form-field>
+    <hr>
+    <h3>PROFISSIONAL</h3>
+    <mat-form-field> Formação
+      <input matInput [(ngModel)]="user.formacao" name="formacao">
+    </mat-form-field>
+    <mat-form-field> Tecnologias
+      <input matInput placeholder="ex. HTML, CSS, JavaScript, Angular"  [(ngModel)]="user.tecnologias" name="tecnologias">
+    </mat-form-field>
+  </form>
+  <button class="btn-edit" mat-raised-button (click)="updateUser()" color="primary">Editar</button>
+  <button class="btn-edit" mat-raised-button (click)="cancel()">Cancelar</button>
+</mat-card>

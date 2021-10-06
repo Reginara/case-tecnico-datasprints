@@ -1,0 +1,27 @@
+<div class="grid-container">
+  <mat-grid-list cols="3" rowHeight="350px">
+    <mat-grid-tile *ngFor="let user of users">
+      <mat-card class="dashboard-card">
+        <mat-card-content class="dashboard-card-content">
+          <div>
+            <img class="img-avatar" src="{{ user.avatar_url }}">
+          </div>
+        </mat-card-content>
+        <mat-card-content class="info-dev">
+          <div>{{ user.name }}</div>
+          <div>{{ user.cidade }}</div>
+          <div>{{ user.tecnologias }}</div>
+        </mat-card-content>
+        <mat-card-content class="link-to">
+          <div><a>Ir para GitHub</a></div>
+          <div>
+            <button mat-icon-button class="action-buttons edit" routerLink="/userUpdate/{{ user.id }}">
+                <i class="material-icons">edit</i>
+            </button></div>
+          <div><button mat-icon-button class="action-buttons delete"><i class="material-icons">delete</i></button></div>
+        </mat-card-content>
+
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
