@@ -19,8 +19,8 @@
   text-align: center;
 }
 
-.img-avatar {
-  max-width: 150px;
+.grid-container__img-avatar {
+  max-width: 45%;
   border-radius: 50%;
   float: inline-start;
   padding-top: -50px;
@@ -39,6 +39,11 @@
 
 .delete {
   color: #e35e6b;
+}
+
+.href {
+  text-decoration: none;
+  color: aliceblue;
 }
 
 @media only screen and (max-device-width: 900px) {

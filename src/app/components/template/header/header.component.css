@@ -6,11 +6,11 @@
   display: flex;
   flex: 1 1 auto;
   z-index: 1;
-  display: flex;
-  flex-wrap: wrap ;
+  flex-wrap: wrap;
   align-items: center;
   background-color: #0a0a0a;
   color: aliceblue;
+  justify-content: space-between;
 }
 
 .header a {
@@ -28,8 +28,13 @@
   margin-left: 35px;
 }
 
-.menu-bar{
-float: right;}
+.logo-btn {
+  float: left;
+}
+
+.menu-bar {
+  float: right;
+}
 
 @media only screen and (max-device-width: 900px) {
   body {

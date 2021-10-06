@@ -4,7 +4,7 @@
       <mat-card class="dashboard-card">
         <mat-card-content class="dashboard-card-content">
           <div>
-            <img class="img-avatar" src="{{ user.avatar_url }}">
+            <img class="grid-container__img-avatar" src="{{ user.avatar_url }}">
           </div>
         </mat-card-content>
         <mat-card-content class="info-dev">
@@ -13,7 +13,7 @@
           <div>{{ user.tecnologias }}</div>
         </mat-card-content>
         <mat-card-content class="link-to">
-          <div><a>Ir para GitHub</a></div>
+          <div><a class="href" href="https://github.com" target="_blank">Ir para GitHub</a></div>
           <div>
             <button mat-icon-button class="action-buttons edit" routerLink="/userUpdate/{{ user.id }}">
               <i class="material-icons">edit</i>
@@ -25,7 +25,6 @@
             </button>
           </div>
         </mat-card-content>
-
       </mat-card>
     </mat-grid-tile>
   </mat-grid-list>

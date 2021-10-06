@@ -10,10 +10,13 @@
 }
 
 .user-form {
-  margin-top: 30px;
-  width: 70%;
+  padding-top: 100px;
+  width: 60%;
   margin-right: auto;
   margin-left: auto;
+}
+.mat-card-title {
+  text-align: center;
 }
 
 form {
@@ -22,16 +25,16 @@ form {
 }
 
 .btn-edit {
-  float: left;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.btn-delete {
   margin-top: 40px;
   margin-bottom: 20px;
 }
 
-.btn-delete {
-  float: right;
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
 
 @media only screen and (max-device-width: 900px) {
   body {

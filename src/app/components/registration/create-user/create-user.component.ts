@@ -48,11 +48,4 @@ export class CreateUserComponent implements OnInit {
   backToHome(): void {
     this.router.navigate(['/'])
   }
-
-  // onSubmit(): void {
-  //   console.log(this.form.value)
-  //   this.http.post(`${ this.apiURL }`, JSON.stringify(this.form.value))
-  //     .pipe(map((res: any) => res))
-  //     .subscribe((dados: any) => console.log(dados))
-  // }
 }

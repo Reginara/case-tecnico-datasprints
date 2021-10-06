@@ -9,7 +9,7 @@ import { User } from "src/app/components/registration/user.model";
 })
 export class RegistrationService {
   apiURL = "http://localhost:4201/user";
-
+  
   constructor(private snackBar: MatSnackBar, private http: HttpClient) {}
 
   showMessage(msg: string): void {
@@ -46,4 +46,5 @@ export class RegistrationService {
     const urlId = `${this.apiURL}/${id}`;
     return this.http.delete<User>(urlId);
   }
+
 }

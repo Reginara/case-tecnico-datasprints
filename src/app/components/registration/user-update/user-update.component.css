@@ -12,11 +12,15 @@
 }
 
 .user-form {
-  margin-top: 30px;
+  padding-top: 150px;
   width: 70%;
   margin-right: auto;
   margin-left: auto;
 }
+
+  .mat-card-title {
+    text-align: center;
+  }
 
 form {
   display: flex;
@@ -24,13 +28,12 @@ form {
 }
 
 .btn-edit {
-  float: left;
   margin-top: 40px;
   margin-bottom: 20px;
+  margin-right: 20px;
 }
 
 .btn-delete {
-  float: right;
   margin-top: 40px;
   margin-bottom: 20px;
 }

@@ -16,7 +16,7 @@ export class UserUpdateComponent implements OnInit {
     email: "",
     cidade: "",
     formacao: "",
-    tecnologias: "",
+    tecnologias: ""
   };
 
   constructor(
