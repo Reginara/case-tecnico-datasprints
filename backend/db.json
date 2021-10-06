@@ -7,13 +7,13 @@
       "email": "nome@gmail.com",
       "cidade": "São Paulo",
       "formacao": "Ciência da Computação",
-      "tecnologias": "HTML, CSS, JavaScript, React",
+      "tecnologias": "HTML, CSS, JavaScript, React, VueJs",
       "id": 2
     },
     {
       "login": "mojodna",
       "avatar_url": "https://avatars.githubusercontent.com/u/45?v=4",
-      "name": "nome",
+      "name": "Hugo Leonardo",
       "email": "nome@gmail.com",
       "cidade": "Curitiba",
       "formacao": "Ensino médio",
@@ -29,6 +29,16 @@
       "formacao": "Desenvolvimento Web",
       "tecnologias": "HTML, CSS, JavaScript, Angular",
       "id": 4
+    },
+    {
+      "login": "vanpelt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17?v=4",
+      "name": "Vanderson",
+      "email": "",
+      "cidade": "São Paulo",
+      "formacao": "Engenheiro de dados",
+      "tecnologias": "Angular, HTML, CSS, TypeScript",
+      "id": 5
     }
   ]
 }
