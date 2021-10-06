@@ -5,15 +5,22 @@ O projeto consistiu em criar uma página para cadastro de pessoas desenvolvedora
 
 #### Este projeto não está 100% finalizado. O que falta?
 
-* Não foi possível vincular os dados do GitHub;
+* Vincular os dados do GitHub para preenchimento automático do formulário;
 * Ajustes de CSS para posicionamento de divs;
-* Aprimoramento da barra de busca.
-* Não foi utilizado formulário reativo.
-
+* Criar a searchbar;
 
 Esse projeto foi feito com [Angular CLI](https://github.com/angular/angular-cli) version 12.2.8.
 
-## Development server
+## Clone esse repositório
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```
+git clone git@github.com:Reginara/case-tecnico-datasprints.git
+cd case-tecnico-datasprints
+ng serve --open
+```
+Você será redirecionado(a) para `http://localhost:4200/`.
+
+## Para acessar o banco de dados interno
+
+Abra a pasta `backend` e rode o `npm start`. Navegue para `http://localhost:4201/user`.
 
