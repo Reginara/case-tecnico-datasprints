@@ -28,6 +28,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { LayoutModule } from '@angular/cdk/layout';
 import { UserUpdateComponent } from './components/registration/user-update/user-update.component';
 import { UserDeleteComponent } from './components/registration/user-delete/user-delete.component';
+import { SearchbarComponent } from './components/registration/searchbar/searchbar.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { UserDeleteComponent } from './components/registration/user-delete/user-
     AboutComponent,
     UsersListComponent,
     UserUpdateComponent,
-    UserDeleteComponent
+    UserDeleteComponent,
+    SearchbarComponent
   ],
   imports: [
     BrowserModule,
