@@ -20,6 +20,10 @@ export class RegistrationService {
     });
   }
 
+  getUserInfo(): Observable<any> {
+    return this.http.get('https://api.github.com/users');
+  }
+
   createDev(user: User): Observable<User> {
     return this.http.post<User>(this.apiURL, user);
   }

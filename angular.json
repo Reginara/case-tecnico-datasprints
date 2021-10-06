@@ -105,9 +105,21 @@
           "options": {
             "browserTarget": "cadastro-devs-v3:build"
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     }
   },
-  "defaultProject": "cadastro-devs-v3"
+  "defaultProject": "cadastro-devs-v3",
+  "cli": {
+    "defaultCollection": "@angular-eslint/schematics"
+  }
 }

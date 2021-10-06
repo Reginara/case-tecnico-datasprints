@@ -12,27 +12,27 @@
   <hr>
   <form>
     <mat-form-field> Usuário GitHub
-      <input matInput [(ngModel)]="user.login" name="login">
+      <input matInput [(ngModel)]="user.login" name="login" required>
     </mat-form-field>
     <mat-form-field> Avatar Url
-      <input matInput [(ngModel)]="user.avatar_url" name="avatar">
+      <input matInput [(ngModel)]="user.avatar_url" name="avatar" required>
     </mat-form-field>
     <mat-form-field> Nome
-      <input matInput [(ngModel)]="user.name" name="name">
+      <input matInput [(ngModel)]="user.name" name="name" required>
     </mat-form-field>
     <mat-form-field> Email
-      <input matInput [(ngModel)]="user.email" name="email">
+      <input matInput [(ngModel)]="user.email" name="email" email required>
     </mat-form-field>
     <mat-form-field> Cidade
-      <input matInput [(ngModel)]="user.cidade" name="cidade">
+      <input matInput [(ngModel)]="user.cidade" name="cidade" required>
     </mat-form-field>
     <hr>
     <h3>PROFISSIONAL</h3>
     <mat-form-field> Formação
-      <input matInput [(ngModel)]="user.formacao" name="formacao">
+      <input matInput [(ngModel)]="user.formacao" name="formacao" required>
     </mat-form-field>
     <mat-form-field> Tecnologias
-      <input matInput placeholder="ex. HTML, CSS, JavaScript, Angular"  [(ngModel)]="user.tecnologias" name="tecnologias">
+      <input matInput placeholder="ex. HTML, CSS, JavaScript, Angular"  [(ngModel)]="user.tecnologias" name="tecnologias" required>
     </mat-form-field>
   </form>
   <button class="btn-send" mat-raised-button (click)="createUser()" color="primary">Cadastrar</button>
