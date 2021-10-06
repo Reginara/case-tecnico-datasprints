@@ -2,6 +2,9 @@
   position: fixed;
   top: 0;
   width: 100%;
+  height: auto;
+  display: flex;
+  flex: 1 1 auto;
   z-index: 1;
   display: flex;
   flex-wrap: wrap ;
@@ -31,5 +34,9 @@ float: right;}
 @media only screen and (max-device-width: 900px) {
   body {
     width: 100%;
+  }
+
+  .header {
+    height: auto;
   }
 }

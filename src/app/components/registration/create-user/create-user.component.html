@@ -31,8 +31,9 @@
     <mat-form-field> Formação
       <input matInput [(ngModel)]="user.formacao" name="formacao" required>
     </mat-form-field>
-    <mat-form-field> Tecnologias
-      <input matInput placeholder="ex. HTML, CSS, JavaScript, Angular"  [(ngModel)]="user.tecnologias" name="tecnologias" required>
+    <mat-form-field>
+      <textarea matInput placeholder="ex. HTML, CSS, JavaScript, Angular"  [(ngModel)]="user.tecnologias" name="tecnologias" required></textarea>
+      Tecnologias
     </mat-form-field>
   </form>
   <button class="btn-send" mat-raised-button (click)="createUser()" color="primary">Cadastrar</button>

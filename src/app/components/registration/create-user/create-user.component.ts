@@ -1,6 +1,6 @@
 import { RegistrationService } from '../registration.service';
 import { HttpClient } from '@angular/common/http';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
 import { User } from 'src/app/components/registration/user.model';
@@ -12,7 +12,7 @@ import { User } from 'src/app/components/registration/user.model';
   styleUrls: ['./create-user.component.css']
 })
 
-export class CreateUserComponent  {
+export class CreateUserComponent implements OnInit {
 
   public form: any;
   public apiURL: string = 'http://localhost:4201/user';
@@ -29,9 +29,14 @@ export class CreateUserComponent  {
 
   constructor(
     private router: Router,
-    private registration: RegistrationService
-    ){};
- 
+    private registration: RegistrationService,
+    private formBuilder: FormBuilder,
+    private http: HttpClient
+    ){}
+
+  ngOnInit(): void {
+    
+  }
 
   createUser(): void {
     this.registration.createDev(this.user).subscribe(() => {
@@ -43,4 +48,11 @@ export class CreateUserComponent  {
   backToHome(): void {
     this.router.navigate(['/'])
   }
+
+  // onSubmit(): void {
+  //   console.log(this.form.value)
+  //   this.http.post(`${ this.apiURL }`, JSON.stringify(this.form.value))
+  //     .pipe(map((res: any) => res))
+  //     .subscribe((dados: any) => console.log(dados))
+  // }
 }

@@ -1,16 +1,6 @@
 {
   "user": [
     {
-      "login": "Reginara",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74442885?v=4",
-      "name": "Reginara",
-      "email": "refagomes@gmail.com",
-      "cidade": "Belo Horizonte",
-      "formacao": "Desenvolvimento Web Fullstack",
-      "tecnologias": "HTML, CSS, JavaScript, Angular",
-      "id": 1
-    },
-    {
       "login": "technoweenie",
       "avatar_url": "https://avatars.githubusercontent.com/u/21?v=4",
       "name": "Paulo Andrade",
@@ -29,6 +19,16 @@
       "formacao": "Ensino médio",
       "tecnologias": "HTML, CSS, JavaScript, Angular",
       "id": 3
+    },
+    {
+      "login": "Reginara",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74442885?v=4",
+      "name": "Reginara Gomes ",
+      "email": "refagomes@gmail.com",
+      "cidade": "Belo Horizonte",
+      "formacao": "Desenvolvimento Web",
+      "tecnologias": "HTML, CSS, JavaScript, Angular",
+      "id": 4
     }
   ]
 }

@@ -10,7 +10,7 @@
   font-size: 0.8rem;
 }
 
-.origem {
+.title-div {
   padding-top: 25px;
   display: flex;
   flex-direction: row;
@@ -20,11 +20,21 @@
 
 img {
   width: 17rem;
+  padding: 30px;
 }
 
-.text {
+.text-origem {
   width: 100%;
   text-align: justify;
+  padding: 30px;
+  font-size: 15px;
+}
+
+.text-dna {
+  width: 100%;
+  text-align: justify;
+  padding: 30px;
+  font-size: 15px;
 }
 
 a {
@@ -37,19 +47,16 @@ a {
   display: flex;
   flex-direction: row;
   padding-left: 35px;
+  justify-content: space-between;
 }
+
 
 @media only screen and (max-device-width: 900px) {
   body {
-    width: 100%;
+    width: auto;
   }
   img {
-    width: 60%;
+    width: 30%;
     align-items: center;
-  }
-
-  .container {
-    flex-wrap: wrap;
-    flex-grow: 1;
   }
 }

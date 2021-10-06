@@ -23,6 +23,10 @@ form {
   flex-direction: column;
 }
 
+textarea {
+  height: 45px;
+}
+
 .btn-send {
   float: left;
   margin-top: 40px;
