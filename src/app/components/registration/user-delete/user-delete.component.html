@@ -1,0 +1,31 @@
+<mat-card class="user-form">
+  <mat-card-title>Excluir Cadastro</mat-card-title>
+  <hr>
+  <form>
+    <mat-form-field> Usuário GitHub
+      <input matInput [value]="user.login" name="login" disabled>
+    </mat-form-field>
+    <mat-form-field> Avatar Url
+      <input matInput [value]="user.avatar_url" name="avatar" disabled>
+    </mat-form-field>
+    <mat-form-field> Nome
+      <input matInput [value]="user.name" name="name" disabled>
+    </mat-form-field>
+    <mat-form-field> Email
+      <input matInput [value]="user.email" name="email" disabled>
+    </mat-form-field>
+    <mat-form-field> Cidade
+      <input matInput [value]="user.cidade" name="cidade" disabled>
+    </mat-form-field>
+    <hr>
+    <h3>PROFISSIONAL</h3>
+    <mat-form-field> Formação
+      <input matInput [value]="user.formacao" name="formacao" disabled>
+    </mat-form-field>
+    <mat-form-field> Tecnologias
+      <input matInput placeholder="ex. HTML, CSS, JavaScript, Angular"  [value]="user.tecnologias" name="tecnologias" disabled>
+    </mat-form-field>
+  </form>
+  <button class="btn-edit" mat-raised-button (click)="deleteUser()" color="warn">Excluir</button>
+  <button class="btn-edit" mat-raised-button (click)="cancel()">Cancelar</button>
+</mat-card>

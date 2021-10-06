@@ -38,7 +38,7 @@ export class RegistrationService {
     return this.http.put<User>(urlId, user);
   }
 
-  delete(id: string): Observable<User> {
+  delete(id: any): Observable<User> {
     const urlId = `${this.apiURL}/${id}`;
     return this.http.delete<User>(urlId);
   }

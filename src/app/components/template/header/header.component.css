@@ -25,6 +25,9 @@
   margin-left: 35px;
 }
 
+.menu-bar{
+float: right;}
+
 @media only screen and (max-device-width: 900px) {
   body {
     width: 100%;

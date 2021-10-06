@@ -16,9 +16,14 @@
           <div><a>Ir para GitHub</a></div>
           <div>
             <button mat-icon-button class="action-buttons edit" routerLink="/userUpdate/{{ user.id }}">
-                <i class="material-icons">edit</i>
-            </button></div>
-          <div><button mat-icon-button class="action-buttons delete"><i class="material-icons">delete</i></button></div>
+              <i class="material-icons">edit</i>
+            </button>
+          </div>
+          <div>
+            <button mat-icon-button class="action-buttons delete" routerLink="/delete/{{ user.id }}">
+              <i class="material-icons">delete</i>
+            </button>
+          </div>
         </mat-card-content>
 
       </mat-card>
