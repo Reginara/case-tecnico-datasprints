@@ -22,5 +22,5 @@ Você será redirecionado(a) para `http://localhost:4200/`.
 
 ## Para acessar o banco de dados interno
 
-Abra a pasta `backend` e rode o `npm start`. Navegue para `httpm://localhost:4201/user`.
+Abra a pasta `backend` e rode o `npm start`. Navegue para `http://localhost:4201/user`.
 
